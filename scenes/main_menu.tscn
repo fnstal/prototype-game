@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://dc7qqdxtdtokv"]
+
+[node name="main_menu" type="Control" unique_id=571952592]
+layout_mode = 3
+anchors_preset = 0
+
+[node name="Button" type="Button" parent="." unique_id=1344735545]
+layout_mode = 0
+offset_left = 333.0
+offset_top = 125.0
+offset_right = 807.0
+offset_bottom = 342.0
+theme_override_colors/font_color = Color(0.6076536, 0.98617667, 0.53659374, 1)
+theme_override_colors/font_hover_color = Color(0.08841988, 0.54917043, 0.14217414, 1)
+theme_override_font_sizes/font_size = 64
+text = "START"
