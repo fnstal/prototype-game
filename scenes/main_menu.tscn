@@ -1,6 +1,8 @@
 [gd_scene format=3 uid="uid://dc7qqdxtdtokv"]
 
-[node name="main_menu" type="Control" unique_id=571952592]
+[ext_resource type="Script" uid="uid://dbbtfqvphx5ju" path="res://scripts/button.gd" id="1_l6cm7"]
+
+[node name="MainMenu" type="Control" unique_id=571952592]
 layout_mode = 3
 anchors_preset = 0
 
@@ -14,3 +16,4 @@ theme_override_colors/font_color = Color(0.6076536, 0.98617667, 0.53659374, 1)
 theme_override_colors/font_hover_color = Color(0.08841988, 0.54917043, 0.14217414, 1)
 theme_override_font_sizes/font_size = 64
 text = "START"
+script = ExtResource("1_l6cm7")
